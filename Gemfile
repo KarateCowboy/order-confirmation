@@ -8,3 +8,6 @@ gem 'pdf-reader'
 gem 'activerecord'
 gem 'rspec', :group => :test
 gem 'shoulda', :group => :test
+gem 'sorbet', :group => :development
+gem 'sorbet-runtime'
+gem 'awesome_print'

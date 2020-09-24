@@ -14,6 +14,7 @@ GEM
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
     afm (0.2.2)
+    awesome_print (1.8.0)
     concurrent-ruby (1.1.7)
     diff-lcs (1.4.4)
     hashery (2.1.2)
@@ -46,6 +47,10 @@ GEM
     shoulda-context (2.0.0)
     shoulda-matchers (4.4.1)
       activesupport (>= 4.2.0)
+    sorbet (0.5.5915)
+      sorbet-static (= 0.5.5915)
+    sorbet-runtime (0.5.5915)
+    sorbet-static (0.5.5915-x86_64-linux)
     thread_safe (0.3.6)
     ttfunk (1.6.2.1)
     tzinfo (1.2.7)
@@ -57,9 +62,12 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  awesome_print
   pdf-reader
   rspec
   shoulda
+  sorbet
+  sorbet-runtime
 
 BUNDLED WITH
    2.1.4
